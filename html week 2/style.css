@@ -1,0 +1,48 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial;
+   padding: 10px;
+   background: #00d3c1;
+}
+
+/* Header (div) formatting */
+.header {
+   padding: 10px;
+   text-align: left;
+   background-color: #ff0101;
+}
+
+.header h1 {
+   font-size: 50px;
+}
+
+/* Content (div) formatting */
+/* TODO */
+.content h2 {
+   color: #05fff2;
+   font-size: 40px;
+}
+
+/* Comparison table formatting */
+.compare table {
+   width:150%;
+}
+
+.compare table, th, td {
+   border: 1px solid rgb(33, 187, 103);
+ }
+
+ .compare th, td {
+   padding: 15px;
+ }
+
+/* Make the logo have a rounded edge */
+img.top-image {
+   border-radius: 90%;
+   vertical-align: middle;
+}
